@@ -77,24 +77,25 @@ export const NavBar = () => {
           <Link onClick={toggleMenu} href="about">
             <li className={`${ullistyle} mb-2`}>ABOUT</li>
           </Link>
-
+          <hr />
           <Link onClick={toggleMenu} href="products">
             <li className={`${ullistyle} mb-2`}>Products</li>
           </Link>
-
+          <hr />
           <Link onClick={toggleMenu} href="blog">
             <li className={`${ullistyle} mb-2`}>BLOG</li>
           </Link>
-
+          <hr />
           <Link onClick={toggleMenu} href="contact">
             <li className={`${ullistyle} mb-2`}>CONTECT US</li>
           </Link>
-
+          <hr />
           <div className="mt-2">
             <Link onClick={toggleMenu} href="login">
               <Button text={"LOGIN"} />
             </Link>
           </div>
+
           <div className="mt-2">
             <Link onClick={toggleMenu} href="signup">
               <SecondryButton text={"SIGN UP"} />
