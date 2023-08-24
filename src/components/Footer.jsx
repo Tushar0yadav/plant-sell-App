@@ -9,7 +9,6 @@ const Footer = () => {
             <img
               src="image.png"
               alt="logo"
-              
               className="rounded-full"
               width={120}
               height={150}
@@ -27,16 +26,24 @@ const Footer = () => {
             </h2>
             <nav className="list-none">
               <li>
-                <a className="hover:text-white cursor-pointer" href="/about">About</a>
+                <a className="hover:text-white cursor-pointer" href="/about">
+                  About
+                </a>
               </li>
               <li>
-                <a className="hover:text-white cursor-pointer" href="/product">Product</a>
+                <a className="hover:text-white cursor-pointer" href="/product">
+                  Product
+                </a>
               </li>
               <li>
-                <a className="hover:text-white cursor-pointer" href="/contact">Contact Us</a>
+                <a className="hover:text-white cursor-pointer" href="/contact">
+                  Contact Us
+                </a>
               </li>
               <li>
-                <a className="hover:text-white cursor-pointer" href="/blog">Blog</a>
+                <a className="hover:text-white cursor-pointer" href="/blog">
+                  Blog
+                </a>
               </li>
             </nav>
           </div>
