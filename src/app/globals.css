@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  color: #222;
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* color: #50C878; */
+/* #98fb98 */
+/* #77dd77 */
+/* primary #FF676D */
+/* button #2C9AFF*/
+/* gray #F7F7F7 */
