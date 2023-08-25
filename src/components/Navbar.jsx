@@ -22,7 +22,13 @@ export const NavBar = () => {
 
         <Link href="./">
           <div className="flex items-center">
-            <img src="image.png" alt="LOGO" className="w-10 " />
+            <img
+              src="image.png"
+              alt="logo"
+              className="rounded-full"
+              width={40}
+              height={40}
+            />
             <div className="text-sm font-semibold text-[#1a5f21] lg:text-2xl">
               Plant
             </div>
@@ -73,28 +79,30 @@ export const NavBar = () => {
           <Link onClick={toggleMenu} href="/">
             <li className={`${ullistyle} mb-2`}>HOME</li>
           </Link>
-          <br />
+          
           <Link onClick={toggleMenu} href="about">
             <li className={`${ullistyle} mb-2`}>ABOUT</li>
           </Link>
-          <br />
+          
           <Link onClick={toggleMenu} href="products">
             <li className={`${ullistyle} mb-2`}>Products</li>
           </Link>
-          <br />
+          
           <Link onClick={toggleMenu} href="blog">
             <li className={`${ullistyle} mb-2`}>BLOG</li>
           </Link>
-          <br />
+          
           <Link onClick={toggleMenu} href="contact">
             <li className={`${ullistyle} mb-2`}>CONTECT US</li>
           </Link>
           <br />
+          <hr />
           <div className="mt-2">
             <Link onClick={toggleMenu} href="login">
               <Button text={"LOGIN"} />
             </Link>
           </div>
+          <br />
           <div className="mt-2">
             <Link onClick={toggleMenu} href="signup">
               <SecondryButton text={"SIGN UP"} />
