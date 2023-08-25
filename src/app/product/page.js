@@ -11,10 +11,10 @@ const page = () => {
                 />
                 <div className="mt-4" >
                     <div className="text-sm font-semibold text-slate-900" >Product name</div>
-                    <div className="text-[12px] text-slate-500 font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                    <div className="text-[12px] text-gray-500 font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
 
-                    <div className="text-md font-semibold text-[#FF676D] mt-1" >
-                        Price - $10.00
+                    <div className="text-md font-semibold text-[#81d36f] mt-1" >
+                        Price - ₹100.00
                     </div>
 
                     <div className='justify-start mt-4' >

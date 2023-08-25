@@ -13,7 +13,7 @@ export const NavBar = () => {
   };
 
   const ullistyle =
-    "font-medium  hover:font-bold cursor-pointer text-sm uppercase lg:text-[12px] ";
+    "font-medium  hover:font-bold cursor-pointer text-sm uppercase lg:text-[14px] ";
 
   return (
     <nav className="fixed w-[100%] z-50">
@@ -31,7 +31,7 @@ export const NavBar = () => {
 
         {/* cneter */}
         <div className="hidden lg:flex">
-          <ul className="flex items-center gap-4 font-bold">
+          <ul className="flex items-center gap-12 font-bold">
             <Link onClick={toggleMenu} href="/">
               <li className={ullistyle}>HOME</li>
             </Link>
@@ -73,29 +73,28 @@ export const NavBar = () => {
           <Link onClick={toggleMenu} href="/">
             <li className={`${ullistyle} mb-2`}>HOME</li>
           </Link>
-          <hr />
+          <br />
           <Link onClick={toggleMenu} href="about">
             <li className={`${ullistyle} mb-2`}>ABOUT</li>
           </Link>
-          <hr />
+          <br />
           <Link onClick={toggleMenu} href="products">
             <li className={`${ullistyle} mb-2`}>Products</li>
           </Link>
-          <hr />
+          <br />
           <Link onClick={toggleMenu} href="blog">
             <li className={`${ullistyle} mb-2`}>BLOG</li>
           </Link>
-          <hr />
+          <br />
           <Link onClick={toggleMenu} href="contact">
             <li className={`${ullistyle} mb-2`}>CONTECT US</li>
           </Link>
-          <hr />
+          <br />
           <div className="mt-2">
             <Link onClick={toggleMenu} href="login">
               <Button text={"LOGIN"} />
             </Link>
           </div>
-
           <div className="mt-2">
             <Link onClick={toggleMenu} href="signup">
               <SecondryButton text={"SIGN UP"} />
