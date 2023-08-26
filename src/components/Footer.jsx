@@ -5,7 +5,7 @@ const lia = "hover:text-green-900 cursor-pointer";
 const Footer = () => {
   return (
     <footer className="text-gray-600 body-font bg-green-100 sm:justify-center">
-      <div className="container justify-around px-5 py-24 mx-auto flex md:items-center lg:items-center md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div className="container px-20 py-24 mx-auto flex md:items-center lg:items-center md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-auto flex-shrink-0  md:mx-0 mx-auto text-center md:text-left lg:justify-center  ">
           <a
             href="/"

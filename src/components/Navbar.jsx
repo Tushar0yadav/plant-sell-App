@@ -102,7 +102,6 @@ export const NavBar = () => {
               <Button text={"LOGIN"} />
             </Link>
           </div>
-          <br />
           <div className="mt-2">
             <Link onClick={toggleMenu} href="signup">
               <SecondryButton text={"SIGN UP"} />
